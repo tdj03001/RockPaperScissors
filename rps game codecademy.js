@@ -56,7 +56,7 @@ function determineWinner(userChoice, computerChoice) { //switch case statements 
   }, delayInMilliseconds);
     } else {
       loseScore ++;
-      document.getElementById("loseScore").innerHTML = ("Total Ties: " + loseScore); 
+      document.getElementById("loseScore").innerHTML = ("Total Losses: " + loseScore); 
       var delayInMilliseconds = 500;
       setTimeout(function() {
         endGame();
@@ -74,7 +74,7 @@ function determineWinner(userChoice, computerChoice) { //switch case statements 
   }, delayInMilliseconds);
     } else {
       winScore ++;
-      document.getElementById("winScore").innerHTML = ("Total Ties: " + winScore); 
+      document.getElementById("winScore").innerHTML = ("Total Wins: " + winScore); 
       var delayInMilliseconds = 500;
       setTimeout(function() {
         endGame();
@@ -92,7 +92,7 @@ function determineWinner(userChoice, computerChoice) { //switch case statements 
   }, delayInMilliseconds);
     } else {
       winScore ++;
-      document.getElementById("winScore").innerHTML = ("Total Ties: " + winScore); 
+      document.getElementById("winScore").innerHTML = ("Total Wins: " + winScore); 
       var delayInMilliseconds = 500;
       setTimeout(function() {
         endGame();
@@ -110,7 +110,7 @@ function determineWinner(userChoice, computerChoice) { //switch case statements 
   }, delayInMilliseconds);
     } else {
       loseScore ++;
-      document.getElementById("loseScore").innerHTML = ("Total Ties: " + loseScore); 
+      document.getElementById("loseScore").innerHTML = ("Total Losses: " + loseScore); 
       var delayInMilliseconds = 500;
       setTimeout(function() {
         endGame();
@@ -128,7 +128,7 @@ function determineWinner(userChoice, computerChoice) { //switch case statements 
   }, delayInMilliseconds);
     } else {
       loseScore ++;
-      document.getElementById("loseScore").innerHTML = ("Total Ties: " + loseScore); 
+      document.getElementById("loseScore").innerHTML = ("Total Losses: " + loseScore); 
       var delayInMilliseconds = 500;
       setTimeout(function() {
         endGame();
@@ -146,7 +146,7 @@ function determineWinner(userChoice, computerChoice) { //switch case statements 
   }, delayInMilliseconds);
     } else {
       winScore ++;
-      document.getElementById("winScore").innerHTML = ("Total Ties: " + winScore); 
+      document.getElementById("winScore").innerHTML = ("Total Wins: " + winScore); 
       var delayInMilliseconds = 500;
       setTimeout(function() {
         endGame();
@@ -164,7 +164,7 @@ function determineWinner(userChoice, computerChoice) { //switch case statements 
   }, delayInMilliseconds);
     } else {
       winScore ++;
-      document.getElementById("winScore").innerHTML = ("Total Ties: " + winScore); 
+      document.getElementById("winScore").innerHTML = ("Total Wins: " + winScore); 
       var delayInMilliseconds = 500;
       setTimeout(function() {
         endGame();
@@ -191,7 +191,7 @@ function playGame() {
 };
 
 function endGame () {
-  alert ("Game Over! Thanks for playing!");
+  alert ("Game Over! Thanks for playing! Reload page to play again");
 };
 
 function hide() {
