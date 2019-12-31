@@ -1,7 +1,8 @@
 function getUserChoice(userInput) {
   userInput = prompt("Play rock, paper, scissors! Type one of those three choices");
+  userInput = userInput.toLowerCase();
   if (userInput === "rock" || userInput === "paper" || userInput === "scissors" || userInput ==="bomb") {
-    return userInput.toLowerCase();
+    return userInput;
   } else {
     alert("Your choices are rock, paper, or scissors");
     getUserChoice();
@@ -25,7 +26,7 @@ var tieScore = 0;
 var loseScore = 0;
 var winScore = 0;
 
-function determineWinner(userChoice, computerChoice) {
+function determineWinner(userChoice, computerChoice) { //switch case statements for refactor
   if (userChoice === computerChoice) {
     alert("It's a tie!");
     if (tieScore <= 8) {
@@ -190,7 +191,7 @@ function playGame() {
 };
 
 function endGame () {
-  alert ("Game Over! Close this message to see your results!");
+  alert ("Game Over! Thanks for playing!");
 };
 
 function hide() {
