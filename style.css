@@ -25,3 +25,8 @@
   font-style: italic;
   font-weight: 600;
 }
+
+button {
+  padding: 5px;
+  border-width: 3px;
+}
