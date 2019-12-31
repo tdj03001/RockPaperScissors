@@ -1,0 +1,27 @@
+#container {
+  margin-top: 150px;
+}
+
+#tieScore {
+  margin-right: 1000px;
+  background-color: yellow;
+  font-style: italic;
+  font-size: x-large;
+  font-weight: 600;
+}
+
+#loseScore {
+  margin-right: 1000px;
+  background-color: red;
+  font-size: x-large;
+  font-style: italic;
+  font-weight: 600;
+}
+
+#winScore {
+  margin-right: 1000px;
+  background-color: greenyellow;
+  font-size: x-large;
+  font-style: italic;
+  font-weight: 600;
+}
